@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 .header{
-	background-image: url('header-bg.jpg');
+	background-image: url('https://raw.githubusercontent.com/Mariii123/bootstrap-4-projects/design1/header-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -35,7 +35,7 @@
 	background-color: #ffcc00 !important;
 	border-radius: 50%;
 	font-size: 2rem !important;
-	padding: 2rem !important; 
+	padding: 2rem; 
 }
 .portfolio{
 	padding-top: 5rem;
@@ -44,6 +44,11 @@
 .card{
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem; 
+	transition: 0.5s ease-in;
+}
+.card:hover{
+	transform: scale(0.9);
+	box-shadow: 5px #solid #ccc !important;
 }
 .card-img{
 	width: 100% !important;
@@ -58,6 +63,10 @@
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	border: 7px solid #fff;
+	transition: 0.5s ease-in;
+}
+.team img:hover{
+	transform: scale(1.1);
 }
 .fa-facebook, .fa-twitter, .fa-linkedin{
 	border-radius: 25%;
@@ -74,10 +83,17 @@
 }
 .logos{
 	padding-top: 5rem;
-	padding-bottom: 5rem;	
+	padding-bottom: 5rem;
+		
+}
+.logos img{
+	transition: 0.5s ease-in;
+}
+.logos img:hover{
+	transform: scale(1.1);
 }
 .contact{
-	background-image: url('map-image.png');
+	background-image: url('https://raw.githubusercontent.com/Mariii123/bootstrap-4-projects/design1/map-image.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
